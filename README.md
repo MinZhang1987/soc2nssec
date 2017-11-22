@@ -9,7 +9,7 @@ Please note that soc2nssec uses the simplified method to derive the NSSEC class.
 # Example
 use soc2nssec_sample_data
 
-soc2nessec soc2nssec jobsoc00, gen(class7) version(00)
+soc2nssec jobsoc00, gen(class7) version(00)
 
 * where the variable jobsoc00 refers SOC2000, which exists in the sample data; the variable class7 is newly generated NSSEC 7-level class; version(00) claims SOC2000. 
 
