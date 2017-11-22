@@ -11,7 +11,7 @@ use soc2nssec_sample_data
 
 soc2nssec jobsoc00, gen(class7) version(00)
 
-* where the variable jobsoc00 refers SOC2000, which exists in the sample data; the variable class7 is newly generated NSSEC 7-level class; version(00) claims SOC2000. 
+* where the variable jobsoc00 refers to SOC2000, which exists in the sample data; the variable class7 is newly generated NSSEC 7-level class; version(00) claims SOC2000. 
 
 * It creates value labels according to seven-level NSSEC scheme. To switch it off, add the option "nolabel".
 
