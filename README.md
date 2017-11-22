@@ -3,7 +3,7 @@ soc2nssec derives seven-level NSSEC (The National Statistics Socio-economic Clas
 
 soc2nssec follows the official documents "The National Statistics Socio-economic Classification User Manual" (for SOC90 and SOC2000) and "Volume 3 The National Statistics Socio-economic Classification: (Rebased on the SOC2010) User Manual".
 
-Please note that soc2nssec uses the simplified method to derive the NSSEC class. It requires the complete information of SOC unit group (i.e., 3-digit SOC90, 4-digit SOC2000, or SOC2010). 
+Please note that soc2nssec uses the simplified method to derive the NSSEC class. It requires the complete information of SOC unit group (i.e., 3-digit SOC90, 4-digit SOC2000, or 4-digit SOC2010). 
 
 
 # Example
