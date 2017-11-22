@@ -1,5 +1,5 @@
 # soc2nssec
-soc2nssec derives seven-level NSSEC (The National Statistics Socio-economic Classification) analytic class from Standard Occupational Classification: SOC90, SOC2000, and SOC2010. 
+soc2nssec derives seven-level NSSEC (The National Statistics Socio-economic Classification) analytic class from Standard Occupational Classifications: SOC90, SOC2000, and SOC2010. 
 
 soc2nssec follows the official documents "The National Statistics Socio-economic Classification User Manual" (for SOC90 and SOC2000) and "Volume 3 The National Statistics Socio-economic Classification: (Rebased on the SOC2010) User Manual".
 
@@ -13,7 +13,7 @@ soc2nessec soc2nssec jobsoc00, gen(class7) version(00)
 
 * where the variable jobsoc00 refers SOC2000, which exists in the sample data; the variable class7 is newly generated NSSEC 7-level class; version(00) claims SOC2000. 
 
-* It creates value labels according seven-level NSSEC scheme. To switch it off, add the option "nolabel".
+* It creates value labels according to seven-level NSSEC scheme. To switch it off, add the option "nolabel".
 
 * Stata help file is included. Type "help soc2nssec" in Stata to view the help file.
 
