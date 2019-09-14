@@ -32,7 +32,8 @@ soc2nssec jobsoc00, gen(class7) version(00)
  
 
 # Author:
-Min Zhang, The University of Manchester
+Min Zhang, The University of Essex
 
 Any feedback or questions, please contact zhangmin.ac@gmail.com
 
+Last update: 14 September 2019
