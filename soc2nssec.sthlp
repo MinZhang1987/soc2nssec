@@ -47,5 +47,5 @@ soc2nssec jobsoc00, gen(class7) v(2000)
 
 {title:Author:}
 {p}
-Min Zhang, University of Manchester, UK. Email: zhangmin.ac@gmail.com
+Min Zhang, University of Westminster, UK. Email: zhangmin.ac@gmail.com
 {p_end}
