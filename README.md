@@ -1,17 +1,17 @@
 # soc2nssec
-soc2nssec derives seven-level NSSEC (The National Statistics Socio-economic Classification) analytic class from Standard Occupational Classifications: SOC90, SOC2000, and SOC2010. 
+soc2nssec derives seven-level NSSEC (The National Statistics Socio-economic Classification) analytic class from Standard Occupational Classifications: SOC90, SOC2000, SOC2010, and SOC2020. 
 
-Using the simplified method, soc2nssec follows the instruction of the official documents, "The National Statistics Socio-economic Classification User Manual" (for SOC90 and SOC2000) and "Volume 3 The National Statistics Socio-economic Classification: (Rebased on the SOC2010) User Manual".
+Using the simplified method, soc2nssec follows the instruction of the official documents, "The National Statistics Socio-economic Classification User Manual" (for SOC90 and SOC2000) and "Volume 3 The National Statistics Socio-economic Classification: (Rebased on the SOC2010) User Manual" and "SOC 2020 Volume 3: The National Statistics Socio-economic Classification (NS-SEC rebased on the SOC 2020)".
 
-Please note that soc2nssec uses the simplified method to derive the NSSEC class. It requires the complete information of SOC unit group (i.e., 3-digit SOC90, 4-digit SOC2000, or 4-digit SOC2010). 
+Please note that soc2nssec uses the simplified method to derive the NSSEC class. It requires the complete information of SOC unit group (i.e., 3-digit SOC90, 4-digit SOC2000, 4-digit SOC2010, or 4-digit SOC2020). 
 
 
 # Example
 use soc2nssec_sample_data
 
-soc2nssec jobsoc00, gen(class7) version(00)
+soc2nssec jobsoc00, gen(class7) version(2000)
 
-* where the variable jobsoc00 refers to SOC2000, which exists in the sample data; the variable class7 is newly generated NSSEC 7-level class; version(00) claims SOC2000. 
+* where the variable jobsoc00 refers to SOC2000, which exists in the sample data; the variable class7 is newly generated NSSEC 7-level class; version(2000) claims SOC2000. Use version(90), version(2010) or version(2020) for the other SOC versions. 
 
 * It creates value labels according to seven-level NSSEC scheme. To switch it off, add the option "nolabel".
 
